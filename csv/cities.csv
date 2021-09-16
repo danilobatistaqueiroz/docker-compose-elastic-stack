@@ -1,0 +1,71 @@
+Country,City,AccentCity,Region,Population,Latitude,Longitude
+ad,aixas,Aixàs,06,,42.4833333,1.4666667
+ad,aixirivali,Aixirivali,06,,42.466666700000005,1.5
+ad,aixirivall,Aixirivall,06,,42.466666700000005,1.5
+ad,aixirvall,Aixirvall,06,,42.466666700000005,1.5
+ad,aixovall,Aixovall,06,,42.466666700000005,1.4833333
+ad,andorra,Andorra,07,,42.5,1.5166667
+ad,andorra la vella,Andorra la Vella,07,20430.0,42.5,1.5166667
+ad,andorra-vieille,Andorra-Vieille,07,,42.5,1.5166667
+ad,andorre,Andorre,07,,42.5,1.5166667
+af,gardaneh,Gardaneh,27,,34.602179,68.144814
+af,gardaneh,Gardaneh,41,,34.045078000000004,65.695955
+af,gardaneh-ye ghownj,Gardaneh-ye Ghownj,03,,35.493964,68.940061
+af,gardaneh-ye kabud,Gardaneh-ye Kabud,09,,34.712724,64.99629
+af,gardaneh-ye qal`eh,Gardaneh-ye Qal`eh,40,,35.147094,69.220924
+af,gardeyz,Gardeyz,36,,33.597439,69.225922
+af,gardez,Gardez,36,103732.0,33.597439,69.225922
+af,gardezkhel,Gardezkhel,17,,33.873889,69.226111
+af,gardez khel,Gardez Khel,17,,33.873889,69.226111
+af,gardolah,Gardolah,05,,34.431332,66.586601
+so,wadhan,Wadhan,15,,9.633333300000002,45.3166667
+so,wadjid,Wadjid,01,,3.8,43.25
+so,wad,Wad,11,,8.866666699999998,46.9333333
+so,wadwad,Wadwad,15,,8.45,46.6666667
+sr,bakrapranas,Bakrapranas,18,,3.8,-55.7
+sr,balin,Balin,18,,4.9333333,-55.55
+sr,baloemadam,Baloemadam,18,,3.9833333,-55.5
+sr,bamboesi,Bamboesi,13,,5.5333333,-54.033333299999995
+sr,bamboesie,Bamboesie,13,,5.5333333,-54.033333299999995
+sv,sunsulaca,Sunsulaca,08,,13.766666699999998,-88.08333329999999
+sv,suntecumat,Suntecumat,01,,13.9,-89.80111109999999
+sv,suntulin,Suntulín,09,,13.683333300000001,-88.3166667
+sv,suquiat,Suquiat,13,,13.703888899999999,-89.6569444
+sv,tablon chaguite,Tablón Chagüite,11,,14.383333300000002,-89.45
+sv,tabloncitos,Tabloncitos,11,,14.1,-89.58333329999999
+sv,tabloncito,Tabloncito,11,,14.1,-89.58333329999999
+sv,tablon del coco,Tablón del Coco,11,,14.083333300000001,-89.7166667
+sv,tablon,Tablón,01,,14.05,-89.8
+sy,mafaale,Mafaalé,05,,32.7666667,36.6333333
+sy,mafaaye,Mafaaye,09,,36.0666667,37.9
+sy,maf`alah,Maf`alah,05,,32.7666667,36.6333333
+sy,maf`alih,Maf`alih,05,,32.7666667,36.6333333
+sy,mafaze,Mafâzé,09,,36.4,38.4
+sy,mafsalah,Mafsalah,09,,35.9333333,37.283333299999995
+sy,mafsale,Mafsalé,09,,35.9333333,37.283333299999995
+sy,qammari,Qammari,09,,36.05,36.9333333
+sy,qammine,Qammîne,02,,35.4833333,35.95
+ua,loknja,Loknja,21,,51.148270000000004,35.058025
+ua,loknya,Loknya,21,,50.701916,33.184736
+ua,loknyste,Loknyste,02,,51.526078999999996,31.711803999999997
+ua,loknytsya,Loknytsya,19,,51.81004,25.842866
+us,amberley,Amberley,OH,,39.2047222,-84.4280556
+us,aurora,Aurora,OR,,45.23111110000001,-122.7547222
+us,bendertown,Bendertown,PA,,41.148611100000004,-76.3172222
+us,lenape,Lenape,PA,,39.9127778,-75.6319444
+us,lenape heights,Lenape Heights,PA,,40.764166700000004,-79.52083329999999
+us,pittston junction,Pittston Junction,PA,,41.341666700000005,-75.78611109999999
+us,pittsville,Pittsville,PA,,41.256111100000005,-79.74083329999999
+us,pittville,Pittville,PA,,40.0572222,-75.145
+us,plain grove,Plain Grove,PA,,41.0541667,-80.1430556
+br,sao paulo,Sao Paulo,SP,,30.00000,-30.000
+br,hortolandia,Sao Paulo,SP,,31.00000,-31.000
+br,campinas,Sao Paulo,SP,,30.00000,-31.000
+br,sumare,Sao Paulo,SP,,32.00000,-31.000
+br,monte mor,Sao Paulo,SP,,32.00000,-31.000
+br,belo horizonte,Minas Gerais,MG,,52.00000,-51.000
+br,belmont,Minas Gerais,MG,,52.00000,-51.000
+br,porto alegre,Rio Grande do Sul,RS,,22.00000,-21.000
+br,osasco,Sao Paulo,SP,,22.00000,-21.000
+br,santos,Sao Paulo,SP,,12.00000,-21.000
+br,sao vicente,Sao Paulo,SP,,12.00000,-21.000

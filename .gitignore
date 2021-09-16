@@ -1,0 +1,14 @@
+elasticsearch/data/*
+elasticsearch/config/elasticsearch.keystore
+.history
+filebeat/filebeat-*/modules.d
+filebeat/filebeat-*/kibana
+filebeat/filebeat-*/module
+filebeat/filebeat-*/data
+filebeat/filebeat-*/fields.yml
+filebeat/filebeat-*/filebeat
+filebeat/filebeat-*/filebeat.reference.yml
+filebeat/filebeat-*/.build_hash.txt
+filebeat/filebeat-*/LICENSE.txt
+filebeat/filebeat-*/NOTICE.txt
+filebeat/filebeat-*/README.md

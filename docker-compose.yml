@@ -1,0 +1,62 @@
+version: '3.7'
+
+services:
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:$ELK_VERSION
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - ./elasticsearch/config:/etc/elasticsearch
+      - ./elasticsearch/data:/usr/share/elasticsearch/data
+      - ./elasticsearch/log:/var/log/elasticsearch
+    environment:
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      ELASTIC_PASSWORD: ${ES_PASSWORD}
+      discovery.type: single-node
+    networks:
+      - elk
+    healthcheck:
+      test: ["CMD", "curl","-s" ,"-f", "-u", "elastic:${ES_PASSWORD}", "http://localhost:9200/_cat/health"]
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:$ELK_VERSION
+    ports:
+      - "5044:5044" #Logstash Beats input
+      - "5000:5000" #Logstash TCP input
+      - "9600:9600" #Logstash monitoring API
+    volumes:
+      - ${PWD}/logstash/usr/share/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ${PWD}/logstash/usr/share/config/pipelines.yml:/usr/share/logstash/config/pipelines.yml
+      - ${PWD}/logstash/usr/share/pipeline:/usr/share/logstash/pipeline
+    environment:
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+    networks:
+      - elk
+    depends_on:
+      elasticsearch:
+        condition: service_started
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:$ELK_VERSION
+    ports:
+      - "5601:5601"
+    volumes:
+        - ./kibana/config:/etc/kibana/config
+    networks:
+      - elk
+    depends_on:
+      elasticsearch:
+        condition: service_started
+
+networks:
+  elk:
+    driver: bridge
